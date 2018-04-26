@@ -75,6 +75,7 @@ right connector from last child*/
 	color: #666;
 	font-family: arial, verdana, tahoma;
 	font-size: 11px;
+	font-weight: bold;
 	display: inline-block;
 	
 	border-radius: 5px;
@@ -104,13 +105,20 @@ Thanks :)*/
 
 .logos {
 	display: inline-block;
-	height: 75px;
+	height: 50px;
 }
 
 .tree .crf{
 	color: #AD6B6B;
-	font-family: arial bold;
+	font-weight: bold;
+	font-size: 16px;
 }
 .tree .ni{
 	color: #406868;
+	font-weight: bold;
+	font-size: 16px;
+}
+.tree .otherproducts{
+	fon-weight: bold;
+	font-size: 16px;
 }

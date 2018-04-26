@@ -13,6 +13,7 @@ The markup will be simple nested lists
 <body>
 	<img class="logos" src='./images/hcpsl-logo.jpg'/>
 	<img class="logos" src='./images/CSIRO_Grad_RGB_lr.jpg'/>
+	<h1 class="logos">EEF Decision Tree (PROTOTYPE)</h1>
   <div class="tree">
   	<ul>
   		<li>
@@ -25,7 +26,10 @@ The markup will be simple nested lists
   							<a class="crf" href="#">CRF</a>
   						</li>
   						<li>
-  							<a href="#">Volat. Reducer</a>
+  							<a class="otherproducts" href="#">Ammonium Sulphate</a>
+  						</li>
+  						<li>
+  							<a class="otherproducts" href="#">Urease Inhibitor</a>
   						</li>
   					</ul>
   				</li>
@@ -33,13 +37,13 @@ The markup will be simple nested lists
   					<a href="#">No</a>
   					<ul>
   						<li>
-  							<a href="#">Are you applying all N fertiliser at planting time? (i.e. Mound planted)</a>
+  							<a href="./Question2.html">Are you applying all N fertiliser at planting time? (i.e. Mound planted)</a>
   							<ul>
   								<li>
   									<a href="#">Yes</a>
   									<ul>
   										<li>
-  											<a href="#">When are you planting?</a>
+  											<a href="./Question3.html">When are you planting?</a>
   											<ul>
   												<li>
   													<a href="#">Early (Apr-Aug)</a>
@@ -68,10 +72,10 @@ The markup will be simple nested lists
   									<a href="#">No</a>
   									<ul>
   										<li>
-  											<a href="#">Is your soil sandy?</a>
+  											<a href="Question4.html">Is your soil a sand or clay?</a>
   											<ul>
   												<li>
-  													<a href="#">Yes</a>
+  													<a href="#">Sand</a>
   													<ul>
   														<li>
   															<a class="crf" href="#">CRF</a>
@@ -79,72 +83,54 @@ The markup will be simple nested lists
   													</ul>
   												</li>
   												<li>
-  													<a href="#">No</a>
-  													<ul>
-  														<li>
-  															<a href="#">Is your soil a clay?</a>
-  															<ul>
-  																<li>
-  																	<a href="#">Yes</a>
-  																	<ul>
-  																		<li>
-  																			<a href="#">When will your fertiliser be applied?</a>
-  																			<ul>
-  																				<li>
-  																					<a href="#">Aug - mid Oct</a>
-  																					<ul>
-  																						<li>
-  																							<a class="crf" href="#">CRF</a>
-  																						</li>
-  																						<li>
-  																							<a class="ni" href="#">NI</a>
-  																						</li>
-  																					</ul>
-  																				</li>
-  																				<li>
-  																					<a href="#">mid Oct - Dec</a>
-  																					<ul>
-  																						<li>
-  																							<a href="#">When will your crops be harvested?</a>
-  																							<ul>
-  																								<li>
-  																									<a href="#">early</a>
-  																									<ul>
-  																										<li>
-  																											<a class="ni" href="#">NI</a>
-  																										</li>
-  																									</ul>
-  																								</li>
-  																								<li>
-  																									<a href="#">late</a>
-  																									<ul>
-  																										<li>
-  																											<a class="crf" href="#">CRF</a>
-  																										</li>
-  																										<li>
-  																											<a class="ni" href="#">NI</a>
-  																										</li>
-  																									</ul>
-  																								</li>
-  																							</ul>
-  																						</li>
-  																					</ul>
-  																				</li>
-  																			</ul>
-  																		</li>
-  																	</ul>
-  																</li>
-  																<li>
-  																	<a href="#">No</a>
-  																	<ul>
-  																		<li>
-  																			<a href="#">Product not specified</a>
-  																		</li>
-  																	</ul>
-  																</li>										
-  															</ul>
-  														</li>
-  													</ul>
+  													<a href="#">Clay</a>
+  														<ul>
+  															<li>
+  																<a href="Question5.html">When will your fertiliser be applied?</a>
+  																<ul>
+  																	<li>
+  																		<a href="#">Aug - mid Oct</a>
+  																		<ul>
+  																			<li>
+  																				<a class="crf" href="#">CRF</a>
+  																			</li>
+  																			<li>
+  																				<a class="ni" href="#">NI</a>
+  																			</li>
+  																		</ul>
+  																	</li>
+  																	<li>
+  																		<a href="#">mid Oct - Dec</a>
+  																		<ul>
+  																			<li>
+  																				<a href="Question6.html">When will your crops be harvested?</a>
+  																				<ul>
+  																					<li>
+  																						<a href="#">Early</a>
+  																						<ul>
+  																							<li>
+  																								<a class="ni" href="#">NI</a>
+  																							</li>
+  																						</ul>
+  																					</li>
+  																					<li>
+  																						<a href="#">Late</a>
+  																						<ul>
+  																							<li>
+  																								<a class="crf" href="#">CRF</a>
+  																							</li>
+  																							<li>
+  																								<a class="ni" href="#">NI</a>
+  																							</li>
+  																						</ul>
+  																					</li>
+  																				</ul>
+  																			</li>
+  																		</ul>
+  																	</li>
+  																</ul>
+  															</li>
+  														</ul>
   												</li>
   											</ul>
   										</li>
