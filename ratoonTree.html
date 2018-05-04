@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>EEF DSS</title>
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+
+	<!--
+	We will create a family tree using just CSS(3)
+	The markup will be simple nested lists
+	-->
+	<body>
+		<a class="logos" href="index.html"><img src="images/homeButton2.png" height=40px/></a>
+		<img class="logos" src='images/hcpsl-logo.jpg'/>
+		<img class="logos" src='images/CSIRO_Grad_RGB_lr.jpg'/>
+		<h1 class="logos">EEF Decision Tree (PROTOTYPE)</h1>
+		<br/>
+		<h2 class="cropClassTitle">Ratoon crops</h2>
+		<i class="cropClassTitle">(Click on a question to explore further details (i.e. rationale & evidence))</i>
+
+		<div class="tree">
+			<ul>
+				<li>
+					<a class="query" href="QuestionR1.html">Do you need to apply N fertiliser products above ground?</a>
+					<ul>
+						<li>
+							<a href="#">No</a>
+							<ul>
+								<li>
+									<a class="query" href="QuestionR2.html">Is the outlook dry?</a>
+									<ul>
+										<li>
+											<a href="#">No</a>
+											<ul>
+												<li>
+													<a class="query" href="QuestionR3.html">Is your soil a light or heavy soil?</a>
+													<ul>
+														<li>
+															<a href="#">Light soil</a>
+															<ul>
+																<li>
+																	<a class="crf" href="#">CRF</a>
+																</li>
+															</ul>
+														</li>
+														<li>
+															<a href="#">Heavy soil</a>
+															<ul>
+																<li>
+																	<a class="query" href="QuestionR4.html">When will your fertiliser be applied?</a>
+																	<ul>
+																		<li>
+																			<a href="#">Jul - mid Oct</a>
+																			<ul>
+																				<li>
+																					<a class="otherproducts" href="#">Urea</a>
+																				</li>
+																			</ul>
+																		</li>
+																		<li>
+																			<a href="#">mid Oct - Dec</a>
+																			<ul>
+																				<li>
+																					<a class="query" href="QuestionR5.html">When will this crop be<br/>harvested?</a>
+																					<ul>
+																						<li>
+																							<a href="#">Early</a>
+																							<ul>
+																								<li>
+																									<a class="ni" href="#">NI</a>
+																								</li>
+																							</ul>
+																						</li>
+																						<li>
+																							<a href="#">Late</a>
+																							<ul>
+																								<li>
+																									<!-- <a class="crf" href="#">CRF<br/>NI</a> -->
+																									<a class="otherproducts" href="#"><div style="color: #AD6B6B">CRF</div><div style="color: #406868">NI</div></a>
+																								</li>
+																							</ul>
+																						</li>
+																					</ul>
+																				</li>
+																			</ul>
+																		</li>
+																	</ul>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									  <li>
+												<a href="#">Yes</a>
+												<ul>
+													<li>
+														<a class="otherproducts" href="#">Urea</a>
+													</li>
+												</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Yes</a>
+							<ul>
+								<li>
+									<a class="otherproducts" href="#">
+									<div style="color: #AD6B6B">CRF</div>
+									NH<sub>4</sub>SO<sub>4</sub>
+									<br/>Urease Inhibitor
+									</a>
+								</li>
+							</ul>
+						</li>						
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

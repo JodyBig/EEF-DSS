@@ -105,7 +105,8 @@ Thanks :)*/
 
 .logos {
 	display: inline-block;
-	height: 50px;
+	text-align: left;
+	height: 40px;
 }
 
 .tree .crf{
@@ -126,4 +127,30 @@ Thanks :)*/
 .tree .query{
 	/*background-color: #D0B198;*/
 	background-color: #FBE6D4; 
+}
+
+#cropClassQ {
+	color: #AD6B6B;
+	/*display: inline-block;*/
+	text-align: center;
+	height: 30px;
+}
+
+.cropClassTitle {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	display: inline-block;
+}
+
+h1 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	/*font-weight: 500;*/
+	font-weight: bold;
+	line-height: 26.4px;
+}
+
+.flex-container {
+  display: flex;
 }
